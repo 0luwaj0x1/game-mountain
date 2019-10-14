@@ -1,0 +1,119 @@
+@import "../../base";
+
+
+.block {
+	background-color: white;
+	box-shadow: 4px 4px 0px rgba(0,0,0,0.3);
+
+	margin-bottom: 4%;
+	
+	.user {
+		display: inline-block;
+		width: 100%;
+		overflow: hidden;
+		
+		
+		.avatar {
+			width: 18%;
+			height: 18%;
+			margin-right: 6%;
+			float: left;
+		}
+		
+		.username {
+			display: block;
+			width: 100%;
+			margin: 0;
+			margin-bottom: 2%;
+			font-size: 150%;
+			font-family: "utrecht_groteskregular";
+			font-weight: 100;
+			color: $utrecht-rood;
+		}
+		
+		.handle {
+			display: inline-block;
+			float: left;
+			margin: 0;
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 400;
+			font-size: 120%;
+			color: $gray-one;
+		}
+	}
+	
+	.message {
+		margin-top: 20px;
+		margin-bottom: 7%;
+		display: inline-block;
+		font-size: 115%;
+		font-family: 'Montserrat', sans-serif;
+		line-height: 140%;
+	}
+	
+	.image {
+		height: 300px;
+		width: 114%;
+		margin: 0% -7%;
+		background-position: center center;
+		background-size: auto 100%;
+	}
+	
+	&.green {
+		background-color: #006167;
+		
+		.username {
+			color: #1ff2ff;
+		}
+		
+		.handle {
+			color: #b5fbff;
+		}
+		
+		.message {
+			color: white;
+		}
+		
+		a {
+			color: #1ff2ff;
+		}
+	}
+	
+	&.yellow {
+		background-color: #fff200;
+		
+		.username {
+			
+		}
+		
+		.handle {
+			color: #cba636;
+		}
+		
+		.message {
+			color: black;
+		}
+		
+	}
+	
+	&.red {
+		background-color: #ed1c24;
+		
+		.username {
+			color: white;
+		}
+		
+		.handle {
+			color: #ededed;
+		}
+		
+		.message {
+			color: white;
+		}
+		
+		a {
+			color: #fff200;
+		}
+		
+	}
+}

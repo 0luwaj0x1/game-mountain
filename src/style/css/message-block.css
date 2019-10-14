@@ -1,0 +1,111 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+.block {
+  background-color: white;
+  box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3);
+  margin-bottom: 4%;
+}
+
+.block .user {
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+}
+
+.block .user .avatar {
+  width: 18%;
+  height: 18%;
+  margin-right: 6%;
+  float: left;
+}
+
+.block .user .username {
+  display: block;
+  width: 100%;
+  margin: 0 0 2%;
+  font-size: 150%;
+  font-family: "utrecht_groteskregular";
+  font-weight: 100;
+  color: #e3000f;
+}
+
+.block .user .handle {
+  display: inline-block;
+  float: left;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 120%;
+  color: #b3b3b3;
+}
+
+.block .message {
+  margin-top: 20px;
+  margin-bottom: 7%;
+  display: inline-block;
+  font-size: 115%;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 140%;
+}
+
+.block .image {
+  height: 300px;
+  width: 114%;
+  margin: 0 -7%;
+  background-position: center center;
+  background-size: auto 100%;
+}
+
+.block.green {
+  background-color: #006167;
+}
+
+.block.green .username {
+  color: #1ff2ff;
+}
+
+.block.green .handle {
+  color: #b5fbff;
+}
+
+.block.green .message {
+  color: white;
+}
+
+.block.green a {
+  color: #1ff2ff;
+}
+
+.block.yellow {
+  background-color: #fff200;
+}
+
+.block.yellow .handle {
+  color: #cba636;
+}
+
+.block.yellow .message {
+  color: black;
+}
+
+.block.red {
+  background-color: #ed1c24;
+}
+
+.block.red .username {
+  color: white;
+}
+
+.block.red .handle {
+  color: #ededed;
+}
+
+.block.red .message {
+  color: white;
+}
+
+.block.red a {
+  color: #fff200;
+}
+
+/*# sourceMappingURL=message-block.css.map */
