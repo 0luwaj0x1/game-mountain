@@ -44,6 +44,7 @@ Make sure you've blocked a couple of hours. Once you're ready for it, let's go:
 
 -   **Fork this project**. Only work on your fork (also, don't create PRs to the main project, so other people can't see steal your solutions).
 -   When moving to the next assignment, branch from your previous solution
+-   After every assignment, you'll create a PR. Do this as you regularly would; but you can also explain your thought process (what paths did you try before coming to your solution), issues you ran into, etc.
 -   We'll look at commit / push times to see which excercises went smooth and which took longer. No worries; some are expected to take quite a bit!
 
 Before looking at the assignments below, set your start-time by pushing a commit to master; add yourself to `server/players.ts` so you will appear in the game later on! (no need to fix the build yet - and this will be your only commit to master).
