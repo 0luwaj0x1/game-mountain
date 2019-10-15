@@ -52,7 +52,7 @@ export default abstract class PureWidget<T, S> {
     /**
      * Implement this method to use this.props and this.state and render the updated children:
      * - adjust child DOM elements created in the constructor (e.g.: style, attributes)
-     * - render child widgets using `child.executeRender`
+     * - render child widgets using `child.renderWithProps`
      */
     protected abstract render(): void;
 }
