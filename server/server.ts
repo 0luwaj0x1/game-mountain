@@ -9,7 +9,7 @@ app.use(cors());
  * Shuffles array in place.
  * @param {Array} a items An array containing the items.
  *
- * (from stackoverflow)
+ * https://stackoverflow.com/questions/6274339/how-can-i-shuffle-an-array
  */
 function shuffle<T>(a: T[]) {
     var j, x, i;

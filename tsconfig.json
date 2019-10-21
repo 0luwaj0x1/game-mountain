@@ -1,23 +1,23 @@
 {
-  "compilerOptions": {
-    "target": "es6",
-    "module": "commonjs",
-    "sourceMap": true,
-    "removeComments": false,
-    "outDir": "build",
-    "noImplicitAny": true,
-    "alwaysStrict": true,
-    "strictNullChecks": true,
-    "noUnusedLocals": false,
-    "noImplicitReturns": true,
-    "noImplicitThis": true,
-    "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true,
-    "declaration": true,
-    "skipLibCheck": true,
-    "baseUrl": ".",
-    "esModuleInterop": true
-  },
-  "compileOnSave": true,
-  "exclude": ["node_modules", "dist", "build"]
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "sourceMap": true,
+        "removeComments": false,
+        "outDir": "build",
+        "noImplicitAny": true,
+        "alwaysStrict": true,
+        "strictNullChecks": true,
+        "noUnusedLocals": false,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noUnusedParameters": false,
+        "noFallthroughCasesInSwitch": true,
+        "declaration": true,
+        "skipLibCheck": true,
+        "baseUrl": ".",
+        "esModuleInterop": true
+    },
+    "compileOnSave": true,
+    "exclude": ["node_modules", "dist", "build"]
 }

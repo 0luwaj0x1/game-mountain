@@ -126,7 +126,7 @@ export default class Stage extends PureWidget<{}, State> {
         this.nameTags.forEach((nameTag, i) => {
             nameTag.renderWithProps({
                 position: this.state.bikePositions[i],
-                onClick: (_nameTag: NameTag) => {
+                onClick: (nameTag: NameTag) => {
                     this.tweenBikePosition(i, this.state.bikePositions[i] + 5);
                 },
                 getFreePosition: (nameTag: NameTag, desiredPosition: Box) => {

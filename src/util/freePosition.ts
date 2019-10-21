@@ -1,4 +1,5 @@
 export type Box = {
+    // (x,y) is the top-left coordinate of box
     x: number;
     y: number;
     width: number;
@@ -10,7 +11,7 @@ export type Point = {
     y: number;
 };
 
-function boxesCollide(_box1: Box, _box2: Box) {
+function boxesCollide(box1: Box, box2: Box) {
     // Helper function to detect whether two boxes collide or not, you'll probably need this at some point
 }
 
@@ -24,9 +25,9 @@ function boxesCollide(_box1: Box, _box2: Box) {
  * @param boxes Other Boxes, with which the returned position-box cannot collide
  */
 export function getClosestFreePosition(
-    _insideContainer: Box,
+    insideContainer: Box,
     boxToPlace: Box,
-    _boxes: Box[]
+    boxes: Box[]
 ): Point {
     // Well, we kind of got stuck here! For now, I'm just returning `boxToPlace` and therefor position
     // it at exactly the position requested. But this doesn't take into account any of the other boxes

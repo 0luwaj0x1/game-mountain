@@ -47,11 +47,13 @@ export class NameTag extends PureWidget<Props, {}> {
     protected render(): void {
         console.log("render NameTag", this.staticProps.name);
 
+        const margin = 10;
+
         const desiredPosition = {
             x: this.getXForPosition(),
-            y: this.element.offsetHeight + 10, // ideal position is on the second row, closer to the rider
-            width: this.element.offsetWidth + 10,
-            height: this.element.offsetHeight + 10
+            y: this.element.offsetHeight + margin, // ideal position is on the second row, closer to the rider
+            width: this.element.offsetWidth + margin,
+            height: this.element.offsetHeight + margin
         };
 
         const pos = this.props.getFreePosition(this, desiredPosition);
@@ -59,8 +61,8 @@ export class NameTag extends PureWidget<Props, {}> {
 
         this.box = {
             ...pos,
-            width: this.element.offsetWidth + 10,
-            height: this.element.offsetHeight + 10
+            width: this.element.offsetWidth + margin,
+            height: this.element.offsetHeight + margin
         };
     }
 }

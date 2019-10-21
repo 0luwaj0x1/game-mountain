@@ -36,7 +36,7 @@ Click the name tag above him to give him a little push forward!
 
 Currently, the game has been developed for 1920x1080 and Google Chrome.
 
-[Configure Chrome Developer](https://developers.google.com/web/tools/chrome-devtools/device-mode/emulate-mobile-viewports) tools to use the right resolution.
+[Configure Chrome Devtools Device Mode](https://developers.google.com/web/tools/chrome-devtools/device-mode/) tools to use the right resolution.
 
 # Assignment
 
