@@ -8,6 +8,29 @@ This project is a simple framework for a game / visualization of our adventure!
 
 # Getting started
 
+## Create a mirror of this repo
+
+Your solutions should be in a private repo. Since this repo is public, you can not fork it and then make it private.
+
+You can, however, create a private mirror:
+#### 1. Create a new private repo on GitHub
+[Follow the instructions here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-new-repository).
+#### 2. Bare clone this repo
+`git clone --bare https://github.com/relivecc/mountain.git`
+#### 3. Mirror-push the cloned repo to the private repo you created in step 1
+`cd mountain.git`
+
+`git push --mirror https://github.com/exampleuser/new-repository.git`
+#### 4. Remove the local repo you cloned in step 1
+`cd ..`
+
+`rm -rf mountain.git`
+
+#### 5. Add YousefED as collaborator
+In your private repo settings, add GitHub user [YousefED](https://github.com/YousefED) as a collaborator, so that he can review your code!
+
+## Install node_modules
+
     yarn install
 
 ## Server
@@ -42,7 +65,7 @@ Currently, the game has been developed for 1920x1080 and Google Chrome.
 
 Make sure you've blocked a couple of hours. Once you're ready for it, let's go:
 
--   **Fork this project**. Only work on your fork (also, don't create PRs to the main project, so other people can't see steal your solutions).
+-   **Mirror this project**. Only work on your mirror (also, don't create PRs to the main project, so other people can't see steal your solutions).
 -   When moving to the next assignment, branch from your previous solution
 -   After every assignment, you'll create a PR. Do this as you regularly would; but you can also explain your thought process (what paths did you try before coming to your solution), issues you ran into, etc.
 -   We'll look at commit / push times to see which exercises went smooth and which took longer. No worries; some are expected to take quite a bit!
