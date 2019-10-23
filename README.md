@@ -65,7 +65,7 @@ Currently, the game has been developed for 1920x1080 and Google Chrome.
 
 Make sure you've blocked a couple of hours. Once you're ready for it, let's go:
 
--   **Fork this project**. Only work on your fork (also, don't create PRs to the main project, so other people can't see steal your solutions).
+-   **Mirror this project**. Only work on your mirror (also, don't create PRs to the main project, so other people can't see steal your solutions).
 -   When moving to the next assignment, branch from your previous solution
 -   After every assignment, you'll create a PR. Do this as you regularly would; but you can also explain your thought process (what paths did you try before coming to your solution), issues you ran into, etc.
 -   We'll look at commit / push times to see which exercises went smooth and which took longer. No worries; some are expected to take quite a bit!
