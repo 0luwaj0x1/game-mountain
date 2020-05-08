@@ -27,4 +27,5 @@ export type Kit =
 export type Player = {
     name: string;
     kit: Kit;
+    
 };
